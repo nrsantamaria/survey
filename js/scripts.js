@@ -1,6 +1,6 @@
 $(document).ready(function() {
   $("form#programs").submit(function(event) {
-
+    var name = $("input#name").val();
     var favactivity = parseInt($("select#favactivity").val());
     var style = parseInt($("select#style").val());
     var vacay = parseInt($("select#vacay").val());
@@ -19,7 +19,7 @@ $(document).ready(function() {
     } else {
       $("#ruby").show();
     }
-
+    $(".name").empty().append(name)
     event.preventDefault();
   });
 });
