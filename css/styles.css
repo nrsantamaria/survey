@@ -13,6 +13,7 @@
   font-size: 36px;
   color: white;
 }
+
 .question {
   text-align: center;
   background-color: white;
@@ -20,6 +21,7 @@
   padding: 5px;
   font-size: 16px;
 }
+
 #programs .btn {
   background-color: rgba(59, 153, 252, .9);
   margin: auto;
@@ -32,7 +34,7 @@
 }
 
 .programs {
-  /*display: none;*/
+  display: none;
   background-color: rgba(59, 153, 252, .3);
   padding: 10px;
   text-align: justify;
@@ -40,11 +42,13 @@
   border-color: gray;
   border-radius: 5px;
 }
+
 img {
   float: left;
   padding: 10px;
   height: 100px;
 }
+
 a {
   color: rgba(59, 153, 252, 1);
   text-decoration: underline;

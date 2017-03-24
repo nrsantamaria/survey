@@ -18,9 +18,7 @@ $(document).ready(function() {
     var work = parseInt($("input:radio[name=work]:checked").val());
 
     var results = parseFloat((favactivity + style + vacay + hotel + computer + idol + work) / 7);
-    alert('start')
     $(".programs").hide();
-    alert('hide')
     if (results >= 2.85) {
       $("#c-sharp").show();
     } else if (results >= 1.71) {
@@ -28,7 +26,6 @@ $(document).ready(function() {
     } else {
       $("#ruby").show();
     }
-    alert('end')
     $(".name").empty().append(name);
 
     event.preventDefault();
