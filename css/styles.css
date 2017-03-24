@@ -1,5 +1,5 @@
 .container {
-  background-color: #EAECEE;
+  background-color: rgba(234, 236, 238, 0.5);
 }
 
 .jumbotron {
@@ -38,4 +38,9 @@
   border-style: dashed;
   border-color: gray;
   border-radius: 5px;
+}
+
+a {
+  color: rgba(59, 153, 252, 1);
+  text-decoration: underline;
 }
