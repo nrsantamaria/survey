@@ -12,12 +12,12 @@ $(document).ready(function() {
 
     $(".programs").hide();
 
-    if () {
+    if (results >= 8) {
       $("#ruby").show();
-    } else if () {
+    } else if (results <=6) {
       $("#c-sharp").show();
-    } else () {
-
+    } else {
+      $("#php").show();
     }
 
     event.preventDefault();
