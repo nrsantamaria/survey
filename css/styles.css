@@ -1,23 +1,35 @@
-.programs {
-  display: none;
-  background-color: rgba(59, 153, 252, 0.5);
-  padding: 2px;
-  text-align: center;
-}
-
-.btn {
-  background-color: rgba(59, 153, 252, 0.5);
+.container {
+  background-color: #EAECEE;
 }
 
 .jumbotron {
-  background-color: rgba(59, 153, 252, 0.5);
+  background-color: rgba(59, 153, 252, 0.3);
   text-align: center;
-}
-
-.btn {
-  margin: auto;
+  border-style: dashed;
+  border-color: gray;
 }
 
 .jumbotron h1 {
-  font-size:36px;
+  font-size: 36px;
+}
+
+#programs .btn {
+  background-color: rgba(59, 153, 252, .9);
+  margin: auto;
+  display: block;
+  text-align: center;
+  border-style: outset;
+  border-color: white;
+  color: white;
+  font-size: 20px;
+}
+
+.programs {
+  /*display: none;*/
+  background-color: rgba(59, 153, 252, .3);
+  padding: 5px;
+  text-align: justify;
+  border-style: dashed;
+  border-color: gray;
+  border-radius: 5px;
 }
