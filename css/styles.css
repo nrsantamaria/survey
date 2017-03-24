@@ -1,3 +1,23 @@
 .programs {
   display: none;
+  background-color: rgba(59, 153, 252, 0.5);
+  padding: 2px;
+  text-align: center;
+}
+
+.btn {
+  background-color: rgba(59, 153, 252, 0.5);
+}
+
+.jumbotron {
+  background-color: rgba(59, 153, 252, 0.5);
+  text-align: center;
+}
+
+.btn {
+  margin: auto;
+}
+
+.jumbotron h1 {
+  font-size:36px;
 }

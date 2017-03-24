@@ -22,11 +22,11 @@ $(document).ready(function() {
     $(".programs").hide();
 
     if (results >= 2.85) {
-      $("#c-sharp").fadeIn('slow');
+      $("#c-sharp").slideDown();
     } else if (results >= 1.71) {
-      $("#php").fadeIn('slow');
+      $("#php").slideDown();
     } else {
-      $("#ruby").fadeIn('slow');
+      $("#ruby").slideDown();
     }
 
     $(".name").empty().append(name);
